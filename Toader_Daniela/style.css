@@ -1,0 +1,115 @@
+h1{
+    background: #24232c;
+    text-align: center;
+    text-decoration-color: azure;
+    font-size: 40px;
+    border: 5px solid black;
+    color:darkgrey;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+table,th,td{
+    border: 1.5px solid #f5670e;
+    border-collapse: collapse;
+    background-color:#a2a1a1;
+}
+table{
+    width: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+    color:yellow;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+ul{
+    list-style-position: inside;
+    text-align: right;
+}
+a{  color: #f4cf07;
+    font-size: 20px;
+    font-family: Verdana;
+}
+.div1{
+    background-color: #d2d2e0;
+    border: 2px solid #7817bf; 
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.text{
+    color: #611995;
+    font-size: 20px;
+    font-family: Verdana;
+}
+.img1{
+    opacity: 90%;
+    background-color: white;
+    display: block;
+    height: 55%;
+    width: 40%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
